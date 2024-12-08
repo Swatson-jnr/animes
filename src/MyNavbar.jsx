@@ -7,7 +7,11 @@ function MyNavbar() {
   return (
     <div className='container-fluid'>
       <Navbar bg="" variant="dark" expand="md" className='Navbar'>
-        <Navbar.Brand className='text-dark' href="/">Swat's Anime Blog</Navbar.Brand>
+        <Navbar.Brand className='text-dark' href="/">
+          <Link to="/" className='text-dark'>
+          Swat's Anime Blog
+            </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"   style={{
           backgroundColor: '#f1356d',
         }}/>
